@@ -1,3 +1,14 @@
 # Nguyễn Tuấn Sơn — Professional CV
 
-Source code for the professional CV and portfolio website of Nguyễn Tuấn Sơn.
+Professional CV and portfolio website for Nguyễn Tuấn Sơn.
+
+## Live website
+
+[View the live CV website](https://nguyen-tuan-son-cv.slimxdg.chatgpt.site/)
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
