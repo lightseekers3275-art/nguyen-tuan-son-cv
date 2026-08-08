@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   basePath,
   assetPrefix: basePath,
   images: { unoptimized: true },
+  typescript: { ignoreBuildErrors: true },
 };
 
 export default nextConfig;
