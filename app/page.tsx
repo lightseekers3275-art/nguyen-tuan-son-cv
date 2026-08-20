@@ -43,7 +43,7 @@ const skills = [
   "Personalized Consulting",
   "Team Management",
   "Project Coordination",
-  "Training Development",
+  "Technical Skills",
   "Mentoring & Guidance",
 ];
 
@@ -150,7 +150,14 @@ export default function Home() {
           <p className="sectionLabel">04 / Expertise</p>
           <h2>Skills &<br /><em>strengths</em></h2>
           <div className="skillCloud">
-            {skills.map((skill, index) => <span className={index < 3 ? "featured" : ""} key={skill}>{skill}</span>)}
+            {skills.map((skill, index) => (
+              <span
+                className={index < 3 || skill === "Technical Skills" ? "featured" : ""}
+                key={skill}
+              >
+                {skill}
+              </span>
+            ))}
           </div>
         </div>
       </section>
