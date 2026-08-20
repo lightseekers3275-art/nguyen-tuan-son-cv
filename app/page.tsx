@@ -38,12 +38,12 @@ const skills = [
   "Information Simplification",
   "High Adaptability",
   "AI Literacy",
-  "Analytical Thinking",
+  "Technical Skills",
   "Public Relations",
   "Personalized Consulting",
   "Team Management",
   "Project Coordination",
-  "Technical Skills",
+  "Analytical Thinking",
   "Mentoring & Guidance",
 ];
 
